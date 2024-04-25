@@ -44,24 +44,3 @@ function mergeAlternately(word1: string, word2: string): string {
 //   }
 //   return result;
 // }
-
-let result: string = mergeAlternately("abc", "pqr");
-if (result === "apbqcr") {
-  console.log(true);
-} else {
-  console.log(false);
-}
-
-let result1: string = mergeAlternately("ab", "pqrs");
-if (result1 === "apbqrs") {
-  console.log(true);
-} else {
-  console.log(false);
-}
-
-let result2: string = mergeAlternately("abcd", "pq");
-if (result2 === "apbqcd") {
-  console.log(true);
-} else {
-  console.log(false);
-}
